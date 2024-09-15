@@ -1539,6 +1539,23 @@
                     }
                 }
             },
+            "MOKIP": {
+                "cfl": 7000,
+                "rwys": {
+                    "17R": {
+                        "jet_dep": "MOKIP4S",
+                        "cfl": 7000,
+						"prop_dep": "MOKIP4S",
+                        "cfl_prop": 7000
+                    },
+                    "35L": {
+                        "jet_dep": "MOKIP4N",
+                        "cfl": 7000,
+						"prop_dep": "MOKIP4N",
+                        "cfl_prop": 7000
+                    }
+                }
+            },
             "MURRO": {
                 "cfl": 7000,
                 "rwys": {
